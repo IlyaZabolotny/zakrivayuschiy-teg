@@ -18,5 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
-  font-variation-settings: 'wght' var(--main-font-width)
+  font-variation-settings: 'wght' var(--main-font-width);
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
