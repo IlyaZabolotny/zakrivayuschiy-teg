@@ -21,4 +21,8 @@
   font-variation-settings: 'wght' var(--main-font-width);
   background-color: var(--bg-color);
   color: var(--text-color);
+  background-image: var(--bg-image);
+  background-size: 4px;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
