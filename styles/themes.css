@@ -10,7 +10,7 @@
   --accent-color: #00cc14;
   --text-color: #00cc14;
   --bg-image: url(../svg/pattern-dark.svg);
-  --main-font-width: 785;
+  --main-font-width: 400;
 }
 
 :root .theme-light {
@@ -29,6 +29,13 @@
     --bg-image: url(../svg/pattern-dark.svg);
     --main-font-width: 400;
   }
+
+  :root .theme-auto {
+    --bg-image: url(../svg/pattern-light.svg);
+    --accent-color: #000;
+    --text-color: #000;
+    --main-font-width: 400;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,6 +44,13 @@
     --accent-color: #00cc14;
     --text-color: #00cc14;
     --bg-image: url(../svg/pattern-light.svg);
-    --main-font-width: 785;
+    --main-font-width: 400;
+  }
+
+  :root .theme-auto {
+    --bg-image: url(../svg/pattern-dark.svg);
+    --accent-color: #00cc14;
+    --text-color: #00cc14;
+    --main-font-width: 400;
   }
 }

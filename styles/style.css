@@ -45,6 +45,7 @@
 .header__title {
   text-transform: uppercase;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  cursor: pointer;
 }
 
 .header__subtitle {
@@ -143,6 +144,8 @@
   border-block-end: 2px solid var(--accent-color);
   font-size: 18px;
   padding: 5px 12px;
+  font-variation-settings: "wght" 700;
+  font-family: var(--main-font-family);
 }
 
 .card__content {
@@ -156,6 +159,7 @@
 
 .card__content-paragraph {
   line-height: 21px;
+  font-variation-settings: "wght" 400;
 }
 
 .card__footer {
@@ -245,7 +249,7 @@
 
 .footer {
   inline-size: var(--width);
-  padding: 54px 0 102px 0;
+  padding: 50px 0 102px 0;
   display: grid;
   justify-content: center;
 }
